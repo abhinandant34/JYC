@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .clubs{
     display: flex;
-    height: 100vh;
+    /* height: 120vh; */
     flex-direction: column;
     align-items: center;
 }
 
 .clubs-heading{
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -25,6 +26,11 @@
     margin-top: 0;
     width: 11.5%;
     margin-left: 0.5vw;
+}
+
+.clubs-all{
+    height: 90vh;
+    margin-top: 10vh;
 }
 
 /* .club-logo-1{

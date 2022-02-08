@@ -10,8 +10,9 @@ export default function Clubs() {
             <h2 className='clubs-head-text'>Clubs</h2>
             <img className='clubs-head-line' src={clubsheadline}/>
         </div>
-        {/* <img className='club-logo-1' src={clublogo1}/> */}
-
+        <div className='clubs-all'>
+            <img className='club-logo-1' src={clublogo1}/>
+        </div>
     </div>
   );
 }
