@@ -1,7 +1,7 @@
 import React from 'react';
 import './Clubs.css'
-import clubsheadline from './images/head-line.png'
-import clublogo1 from './images/club-logo-1.png'
+import clubsheadline from './images/line.png'
+import clublogo1 from './images/club-1.png'
 
 export default function Clubs() {
   return(
