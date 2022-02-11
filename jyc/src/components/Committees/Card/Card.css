@@ -1,4 +1,4 @@
-.club-card{        /* css for main card at back */
+.committees-card{      /* for the main card back rectangle */
     display: flex;
     height: 24vh;
     width: 38vw;
@@ -6,7 +6,7 @@
     background: rgba(227, 207, 172, 0.4);
 }
 
-.club-card-content{     /* css for card content */
+.committees-card-content{       /* for the content of the card */
     display: flex;
     width: 52vw;
     flex-direction: column;
@@ -15,19 +15,19 @@
     
 }
 
-.club-card-heading{     /* css for card heading */
+.committees-card-heading{       /* for heading of the card */
     font-family: 'Ubuntu';
     font-size: 20px;
     font-weight: 700;
     color: #443E58;
 }
 
-.club-card-about{       /* css for card about */
+.committees-card-about{     /* for the about section in the card */
     color: #343434;
     font-size: 16px;
 }
 
-.club-logo-image{       /* css for image used on the card */
+.committees-logo-image{     /* for the logo image to be used in card */
     display: flex;
     width: 18vw;
     height: 18vh;

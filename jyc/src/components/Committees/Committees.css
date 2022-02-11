@@ -1,56 +1,56 @@
-*{      /* css for whole section */
+*{                  /* for the whole section */
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-.clubs{     /* css for clubs section */
+.comittees{     /* for the whole committee section */
     display: flex;
     /* height: 120vh; */
     flex-direction: column;
     align-items: flex-start;
 }
 
-.clubs-heading{     /* for main "Clubs" heading portion including under line */
+.comittees-heading{     /* for the heading section including under line */
     margin-top: 5vh;
     width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.clubs-head-text{   /* for main heading text */
+.comittees-head-text{           /* for heading text */
     color: #443E58;
     font-size: 70px;
     font-family: 'Ubuntu';
 }
-.club-heading-underline{        /* for clubs heading underline */
-    width: 12vw;
+.comittees-heading-underline{       /* for under line below heading */
+    width: 22vw;
     height: 1vh;
     background: #E9B456;
 }
 
-.clubs-all{     /* for main whole section of clubs cards */
+.comittees-all{     /* for the whole committees section below heading ... for cards of committees */
     display: flex;
     height: 100vh;
     width: 100vw;
     /* margin-top: 10vh; */
 }
 
-.clubs-card{        /* for all the cards used */
+.comittees-card{    /* for all the cards */
     margin-top: 7vh;
 }
 
-.top-club-card{     /* for top cards */
+.top-comittees-card{        /* only for the top card */
     margin-top: 7vh;
 }
 
-.clubs-left-side{       /* for left side of the clubs section */
+.comittees-left-side{   /* for the left portion of the screen of committes section */
     width: 40vw;
     margin-left: 10vw;
     display: flex;
     flex-direction: column;
 }
 
-.clubs-right-side{      /* for clubs right side section */
+.comittees-right-side{      /* for the right section of the screen */
     width: 50vw;
     margin-left: 2vw;
     display: flex;
