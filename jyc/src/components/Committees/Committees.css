@@ -1,61 +1,86 @@
-*{                  /* for the whole section */
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+@media only screen and (min-width:430px) and (max-width:1600px){
+    .comittees{     /* for the whole committee section */
+        display: flex;
+        flex-direction: column;
+    }
+    .comittees-heading{     /* for the heading section including under line */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .comittees-head-text{           /* for heading text */
+        color: rgb(68, 62, 88);
+        font-size: 4.6rem;
+        margin: 0;
+    }
+    .comittees-heading-underline{       /* for under line below heading */
+        width: 22vw;
+        height: 1vh;
+        background: rgb(233, 180, 86);
+    }
+    .comittees-all{     /* for the whole committees section below heading ... for cards of committees */
+        display: flex;
+        height: 100vh;
+        width: 98vw;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .comittees-left-side{   /* for the left portion of the screen of committes section */
+        width: 48vw;
+        display: flex;
+        height: 90vh;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .comittees-right-side{      /* for the right section of the screen */
+        width: 48vw;
+        height: 90vh;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
-.comittees{     /* for the whole committee section */
-    display: flex;
-    /* height: 120vh; */
-    flex-direction: column;
-    align-items: flex-start;
+@media only screen and (max-width: 430px){ 
+    .comittees{     /* css for comittees section */
+        display: flex;
+        flex-direction: column;
+    }
+    .comittees-heading{     /* for main "comittees" heading portion including under line */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .comittees-head-text{   /* for main heading text */
+        color: rgb(68, 62, 88);
+        font-size: 2.6rem;
+        margin: 0;
+    }
+    .comittees-heading-underline{        /* for comittees heading underline */
+        width: 49vw;
+        height: .3vh;
+        background: rgb(233, 180, 86);
+    }
+    .comittees-all{     /* for main whole section of comittees cards */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .comittees-left-side{       /* for left side of the comittees section */
+        /* width: 48vw; */
+        display: flex;
+        height: 65vh;
+        justify-content: space-around;
+        flex-direction: column;
+        /* align-items: flex-end; */
+    }
+    .comittees-right-side{      /* for comittees right side section */
+        /* width: 48vw; */
+        height: 72vh;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
 }
-
-.comittees-heading{     /* for the heading section including under line */
-    margin-top: 5vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.comittees-head-text{           /* for heading text */
-    color: #443E58;
-    font-size: 70px;
-    font-family: 'Ubuntu';
-}
-.comittees-heading-underline{       /* for under line below heading */
-    width: 22vw;
-    height: 1vh;
-    background: #E9B456;
-}
-
-.comittees-all{     /* for the whole committees section below heading ... for cards of committees */
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    /* margin-top: 10vh; */
-}
-
-.comittees-card{    /* for all the cards */
-    margin-top: 7vh;
-}
-
-.top-comittees-card{        /* only for the top card */
-    margin-top: 7vh;
-}
-
-.comittees-left-side{   /* for the left portion of the screen of committes section */
-    width: 40vw;
-    margin-left: 10vw;
-    display: flex;
-    flex-direction: column;
-}
-
-.comittees-right-side{      /* for the right section of the screen */
-    width: 50vw;
-    margin-left: 2vw;
-    display: flex;
-    flex-direction: column;
-}
-/* .club-logo-1{
-    w
-} */
