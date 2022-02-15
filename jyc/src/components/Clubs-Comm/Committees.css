@@ -1,0 +1,81 @@
+.comittees{     /* for the whole committee section */
+    display: flex;
+    flex-direction: column;
+}
+.comittees-heading{     /* for the heading section including under line */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.comittees-head-text{           /* for heading text */
+    color: rgb(68, 62, 88);
+    margin: 0;
+}
+.comittees-heading-underline{       /* for under line below heading */
+    background: rgb(233, 180, 86);
+}
+.comittees-all{     /* for the whole committees section below heading ... for cards of committees */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 992px) {
+    .comittees{
+        gap: 4vh;
+    }
+    .comittees-head-text{
+        font-size: 4.6rem;
+    }
+    .comittees-heading-underline{
+        width: 25vw;
+        height: 1vh;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .comittees{
+        gap: 4vh;
+    }
+    .comittees-head-text{
+        font-size: 3rem;
+    }
+    .comittees-heading-underline{
+        width: 24vw;
+        height: .6vh;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .comittees{
+        gap: 4vh;
+    }
+    .comittees-head-text{
+        font-size: 3rem;
+    }
+    .comittees-heading-underline{
+        width: 30vw;
+        height: .6vh;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .comittees{
+        gap: 4vh;
+    }
+    .comittees-head-text{
+        font-size: 2.5rem;
+    }
+    .comittees-heading-underline{
+        width: 33vw;
+        height: .6vh;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .comittees{
+        gap: 4vh;
+    }
+    .comittees-head-text{
+        font-size: 2rem;
+    }
+    .comittees-heading-underline{
+        width: 38vw;
+        height: .4vh;
+    }
+}

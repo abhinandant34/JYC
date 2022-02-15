@@ -14,6 +14,9 @@ export default function Card(parse) {
         <div className='club-card-about'>
           {parse.about}
         </div>
+        <span className='learn-more'>
+          Learn More >
+        </span>
       </div>
     </div>
   );

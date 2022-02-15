@@ -1,12 +1,12 @@
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';      // aise dalna hai file ka link, make sure krna ki folder achi tarah se hirearchy mai rahe
-import Clubs from './components/Clubs/Clubs';
-import Committees from './components/Committees/Committees';
+import ClubsComm from './components/Clubs-Comm/Clubs-Comm';
 function App() {
   return (
     <div className="App">
-      <Header/>          {/* aise add krna hai components */}
-      <Clubs/>
-      <Committees/>
+      <Header/>
+      <ClubsComm/>
     </div>
   );
 }
