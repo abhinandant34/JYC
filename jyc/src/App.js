@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Header from './components/Header/Header';      // aise dalna hai file ka link, make sure krna ki folder achi tarah se hirearchy mai rahe
-import ClubsComm from './components/Clubs-Comm/Clubs-Comm';
+// import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Homepage from "./Pages/Homepage";
+import EVENTS from "./Pages/Event Page/EVENTS/EVENTS";
+import TEAMS from "./Pages/Teams/TEAMS/TEAMS"
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <ClubsComm/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Homepage />} />
+          <Route path="events" element={<EVENTS />} />
+          <Route path="teams" element={<TEAMS />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
 export default App;

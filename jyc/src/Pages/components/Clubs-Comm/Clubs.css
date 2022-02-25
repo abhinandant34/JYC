@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 7vh;
 }
 .clubs-head-text{   /* for main heading text */
     color: rgb(68, 62, 88);
@@ -59,7 +60,19 @@
         height: .6vh;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .clubs{
+        gap: 4vh;
+    }
+    .clubs-head-text{
+        font-size: 2.5rem;
+    }
+    .club-heading-underline{
+        width: 33vw;
+        height: .6vh;
+    }
+}
+@media only screen and (max-width: 420px) {
     .clubs{
         gap: 4vh;
     }
@@ -67,7 +80,7 @@
         font-size: 2rem;
     }
     .club-heading-underline{
-        width: 21vw;
+        width: 38vw;
         height: .4vh;
     }
 }

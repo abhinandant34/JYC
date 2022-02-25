@@ -1,0 +1,39 @@
+.JYC-TEAM-head-text{
+    text-align: center;
+    color: #443E58;
+   font-size: 4rem;
+   text-decoration: underline;
+    text-decoration-color: #E9B456;
+   
+}
+
+.JYC-TEAM{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+.JYC-TEAM-Members{
+   
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:768px) {
+    .JYC-TEAM-Members{
+        flex-direction: column;
+        gap: 8vh;
+        justify-content: center;
+    }
+    .JYC-TEAM-head-text{
+        font-size: 3rem;
+    }
+    .Member-1{order:1;}
+    .Member-2{order:0;}
+    .Member-3{order:2;}
+}
+@media only screen and (max-width: 600px) {
+    .JYC-TEAM-head-text{
+        font-size: 2rem;
+    }
+}

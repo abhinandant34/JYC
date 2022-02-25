@@ -26,6 +26,9 @@
   width: 16vh;
   padding: 0.4vh 1vh;
   background: rgb(68, 62, 88);
+}
+.links{
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 .learn-more:hover {

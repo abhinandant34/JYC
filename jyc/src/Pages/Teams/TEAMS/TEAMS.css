@@ -1,0 +1,18 @@
+.team-heading {
+  padding-top: 10vh;
+  font-weight: bold;
+  font-size: 4.2rem;
+  color: #443e58;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.teams{
+  margin-bottom: 7vh;
+}
+
+body{
+  background-image: url(./images/bg.png);
+}
