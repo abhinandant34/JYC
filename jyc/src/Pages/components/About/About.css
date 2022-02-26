@@ -69,7 +69,7 @@
         font-weight: 600;
     }
     .about-stats{
-        padding: 0;
-        /* height: 11vh; */
+        padding: 1vh 0;
+        height: 8vh;
     }
   }
