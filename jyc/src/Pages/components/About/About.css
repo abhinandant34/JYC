@@ -65,11 +65,11 @@
         width: 97%;
     } 
     .about-stat-data{
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 600;
     }
     .about-stats{
         padding: 1vh 0;
-        height: 8vh;
+        height: 7vh;
     }
   }
