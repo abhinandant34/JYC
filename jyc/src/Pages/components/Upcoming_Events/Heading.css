@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  color: rgb(68, 62, 88);
+  text-decoration: underline;
+  text-decoration-color: #E9B456;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  }
+  @media screen and (max-width: 450px) {
+    .heading {
+      font-size: 3rem; 
+    }
+  }

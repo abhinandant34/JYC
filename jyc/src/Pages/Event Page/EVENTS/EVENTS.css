@@ -1,0 +1,22 @@
+.event-heading {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #443e58;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: orangered;
+  margin-top: 5%;
+  padding-top: 2%;
+}
+.events {
+  display: flex;
+  flex-direction: column;
+  background: url(./images/bg.png);
+  background-repeat: repeat-y;
+  z-index: -2;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10vh;
+}
