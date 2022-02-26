@@ -20,3 +20,9 @@
   background-position: center;
   margin-bottom: 10vh;
 }
+@media only screen and (max-width:600px) {
+  .event-heading{
+    margin-top: 15%;
+    /* padding-top: 20%; */
+  }
+}

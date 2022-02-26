@@ -61,10 +61,15 @@
         width: 100%;
     }
     .about-member{
-        width: 100%;
+        padding-left: .7rem;
+        width: 97%;
     } 
     .about-stat-data{
         font-size: 2rem;
         font-weight: 600;
-    }   
+    }
+    .about-stats{
+        padding: 0;
+        /* height: 11vh; */
+    }
   }
