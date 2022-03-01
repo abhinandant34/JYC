@@ -65,25 +65,25 @@ function Footer() {
           <hr></hr>
           <div className={`links-wrapper-1 ${isOpen1 ? 'links-wrapper-1-active' : ''} `}>
             <div className="footer-heading"><div className="footer-heading-m">CLUBS</div>
-              <div onClick={onClickFooter1} className="more-options-m">+</div></div>
+              <div onClick={onClickFooter1} className="more-options-m"><div className="more-option-show">+</div><div className="more-option-hide">-</div></div></div>
             <ul>
-              <li>
-              <Link to='//www.google.com'>Technical Sciences, Movies and Photography</Link>
+              <li className="tsmp">
+              <Link to='/tmp-club'>Technical Sciences, Movies and Photography</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Environment, Ecology and Health</Link>
+              <li className="eeh">
+                <Link to='/environment-club'>Environment, Ecology and Health</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Literary and Debating</Link>
+              <li className="lad">
+                <Link to='/literary-club'>Literary and Debating</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Theater and Music</Link>
+              <li className="tam">
+                <Link to='/theatre-club'>Theater and Music</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Cultural and Dance</Link>
+              <li className="cad">
+                <Link to='/cultural-club'>Cultural and Dance</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Sports</Link>
+              <li className="sports">
+                <Link to='/sports-club'>Sports</Link>
               </li>
             </ul>
           </div>
@@ -92,25 +92,25 @@ function Footer() {
 
           <div className={`links-wrapper-2 ${isOpen2 ? 'links-wrapper-2-active' : ''} `}>
             <div className="footer-heading"><div className="footer-heading-m">COMMITTEES</div>
-              <div onClick={onClickFooter2} className="more-options-m">+</div></div>
+              <div onClick={onClickFooter2} className="more-options-m"><div className="more-option-show">+</div><div className="more-option-hide">-</div></div></div>
             <ul>
-              <li>
-                <Link to='//www.google.com'>Procurement and Event Management</Link>
+              <li className="pem">
+                <Link to='/eventspro-committee'>Procurement and Event Management</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Registration and Hospitality</Link>
+              <li className="rah">
+                <Link to='/registration-committee'>Registration and Hospitality</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Media and Publicity</Link>
+              <li className="map">
+                <Link to='/media-committee'>Media and Publicity</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Creative Arts</Link>
+              <li className="ca">
+                <Link to='/arts-committee'>Creative Arts</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Disciplinary</Link>
+              <li className="dispi">
+                <Link to='/disciplinary-committee'>Disciplinary</Link>
               </li>
-              <li>
-                <Link to='//www.google.com'>Finance</Link>
+              <li className="money">
+                <Link to='/finance-committee'>Finance</Link>
               </li>
             </ul>
           </div>
@@ -119,18 +119,18 @@ function Footer() {
 
           <div className={`links-wrapper-3 ${isOpen3 ? 'links-wrapper-3-active' : ''} `}>
             <div className="footer-heading">
-              <div className="footer-heading-m">CONTACT US</div>
-              <div onClick={onClickFooter3} className="more-options-m">+</div>
+              <div className="footer-heading-m">CONTACT US    </div>
+              <div onClick={onClickFooter3} className="more-options-m"><div className="more-option-show">+</div><div className="more-option-hide">-</div></div>
             </div>
             <ul>
-              <li>
+              <li className="jyc-president-email">
                 <a href="mailto:president.jyc@juitsolan.in">JYC President - president.jyc@juitsolan.in</a>
               </li>
-              <li>
+              <li className="support-email">
                 <a href='mailto:jycphotographyclub1@gmail.com'>Support - jycphotographyclub1@gmail.com</a>
               </li>
-              <li>
-                <Link to='//www.google.com'>
+              <li className="juit-address">
+                <Link to='//www.google.com/maps/place/Jaypee+University+of+Information+Technology/@31.0154348,77.0663199,15.87z/data=!4m5!3m4!1s0x39057db24364e085:0x4f4fefd65caa0317!8m2!3d31.016551!4d77.070159'>
                   Address - Waknaghat, P.O. Waknaghat, Teh Kandaghat, Distt.
                   Solan PIN-173 234 (H.P.), India
                 </Link>
@@ -143,7 +143,7 @@ function Footer() {
           <div className={`links-wrapper-4 ${isOpen4 ? 'links-wrapper-4-active' : ''} `}>
             <div className="footer-heading">
               <div className="footer-heading-m">FOLLOW US</div>
-              <div onClick={onClickFooter4} className="more-options-m">+</div>
+              <div onClick={onClickFooter4} className="more-options-m"><div className="more-option-show">+</div><div className="more-option-hide">-</div></div>
             </div>
             <ul>
               <li>
@@ -176,7 +176,7 @@ function Footer() {
             <Link to='teams'>
               Team </Link>
             |
-            <Link to='//www.google.com'> Certification </Link>
+            <Link to='/page-under-construction'> Certification </Link>
             <Link to='//www.google.com'>
               | Login
             </Link>

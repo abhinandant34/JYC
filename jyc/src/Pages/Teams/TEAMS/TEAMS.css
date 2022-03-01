@@ -1,18 +1,32 @@
 .team-heading {
-  padding-top: 10vh;
   font-weight: bold;
-  font-size: 4.2rem;
+  font-size: 4rem;
   color: #443e58;
-  font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: orangered;
+  text-decoration-color: rgb(233, 180, 86);
   text-align: center;
-  padding-bottom: 5rem;
+  margin-top: 2%;
+  margin-bottom: 7%;
 }
 .teams{
+  display: flex;
+  flex-direction: column;
+  background: url('./images/bg.png');
+  background-repeat: repeat-y;
+  z-index: -2;
+  background-size: cover;
+  background-position: center;
   margin-bottom: 7vh;
 }
-
-body{
-  background-image: url(./images/bg.png);
+.teams-head-bg{
+  height: 10vh;
+  background: #443e58;
+}
+@media only screen and (max-width: 768px) {
+  .teams-head-bg{
+    height: 7vh;
+  }
+  .team-heading{
+    margin-bottom: 7vh;
+  }
 }

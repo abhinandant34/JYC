@@ -1,0 +1,85 @@
+.faculty-coordinator-head-text{
+    text-align: center;
+    color: #443E58;
+    font-size: 4rem;
+    line-height: 0px;
+    text-decoration: underline;
+    text-decoration-color: #E9B456;
+}
+.Faculty-Coordinator{
+    display: flex;
+    flex-direction: column;
+    gap: 12vh;
+}
+.faculty-coordinator-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.faculty-coordinator-content{
+    display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+    
+}
+@media screen and (max-width:768px){
+    .faculty-coordinator-content{
+        flex-direction: column;
+        align-content: center;
+    }
+    .faculty-coordinator-head-text{
+    font-size: 3rem;    
+}
+}
+.coordinator-picture-name,.coordinator-picture-description{
+display: flex;
+}
+.coordinator-picture-name{
+    flex-direction: column;
+    justify-content: center;
+}
+.Faculty_picture{
+    width: 21vw;
+    height: 50vh;
+
+}
+@media screen and (max-width:768px){
+    .Faculty_picture{
+        width: 50%;
+        height: 40%;
+        align-self: center;
+    }
+}
+.Faculty_name{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+.coordinator-picture-description{
+    flex-direction: column;
+    width: 60%;
+    
+    justify-content: center;
+    gap: 2vh;
+    font-size: 1rem;
+}
+@media screen and (max-width:768px){
+    .coordinator-picture-description{
+        width: 90%;
+        margin: auto;
+    }
+    .faculty-coordinator-content{
+        gap: 4vh;
+    }
+}
+
+.content,.email-dept,.phone{
+    display: flex;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .faculty-coordinator-head-text{
+        font-size: 2rem;
+    }
+}
+

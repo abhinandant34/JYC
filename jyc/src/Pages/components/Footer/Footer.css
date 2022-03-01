@@ -1,7 +1,7 @@
 .footer-content {
   background-color: #000000;
   color: #c9c9c9;
-  font-size: .7rem;
+  font-size: .8rem;
   padding-bottom: 10px;
   margin-top: 5px;
 }
@@ -35,11 +35,64 @@
   width: 150px;
   height: 63px;
 }
+.links-wrapper-1 .footer-heading {
+  margin-right: 4.7vw;
+}
+.links-wrapper-2 .footer-heading {
+  margin-right: 2vw;
+}
+.links-wrapper-3 .footer-heading {
+  margin-right: 2.25vw;
+}
+
+.links-wrapper-1 .tsmp{
+  margin-right: 2.2vw;
+}
+.links-wrapper-1 .eeh{
+  margin-right: 3vw;
+}
+.links-wrapper-1 .lad{
+  margin-right: 3vw;
+}
+.links-wrapper-1 .tam{
+  margin-right: 3vw;
+}
+.links-wrapper-1 .cad{
+  margin-right: 2vw;
+}
+
+.links-wrapper-2 .pem{
+  margin-right: 4.6vw;
+}
+
+.links-wrapper-2 .rah{
+  margin-right: 5vw;
+}
+
+.links-wrapper-2 .map{
+  margin-right: 4vw;
+}
+
+.links-wrapper-2 .ca{
+  margin-right: 5vw;
+}
+.links-wrapper-2 .dispi{
+  margin-right: 4.7vw;
+}
+
+.links-wrapper-3 .jyc-president-email{
+  margin-right: 3vw;
+}
+.links-wrapper-3 .support-email{
+  margin-right: 3vw;
+}
 
 .footer-wrapper ul {
   list-style: none;
   padding-inline-start: 0px;
 }
+
+
 .footer-wrapper ul a {
   color: #c0c0c0;
   text-decoration: none;
@@ -67,7 +120,6 @@
   display: flex;
   align-content: center;
   flex-direction: row;
-  gap: 3vw;
 }
 .links-wrapper-3 ul,
 .links-wrapper-2 ul,
@@ -75,15 +127,7 @@
   display: flex;
   flex-direction: row;
 }
-.links-wrapper-1 ul {
-  gap: 5vw;
-}
-.links-wrapper-2 ul {
-  gap: 6vw;
-}
-.links-wrapper-3 ul {
-  gap: 5vw;
-}
+
 .footer-bottom {
   display: flex;
   flex-direction: row;
@@ -104,6 +148,7 @@
 .links-wrapper-4 .footer-heading .more-options-m {
   display: none;
 }
+
 
 /*Media Query*/
 
@@ -175,12 +220,32 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .links-wrapper-1-active .footer-heading .more-options-m,
-  .links-wrapper-2-active .footer-heading .more-options-m,
-  .links-wrapper-3-active .footer-heading .more-options-m,
-  .links-wrapper-4-active .footer-heading .more-options-m {
-    transform: rotate(45deg) scale(1.08);
+  .links-wrapper-1-active .footer-heading .more-options-m .more-option-show,
+  .links-wrapper-2-active .footer-heading .more-options-m .more-option-show,
+  .links-wrapper-3-active .footer-heading .more-options-m .more-option-show,
+  .links-wrapper-4-active .footer-heading .more-options-m .more-option-show {
+    display: none;
+  }
+  .links-wrapper-1 .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-2 .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-3 .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-4 .footer-heading .more-options-m .more-option-hide {
+    display: none;
   }
 
-
+  .links-wrapper-1-active .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-2-active .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-3-active .footer-heading .more-options-m .more-option-hide,
+  .links-wrapper-4-active .footer-heading .more-options-m .more-option-hide {
+    display: contents;
+  }
+  .links-wrapper-1 .footer-heading {
+    margin-right: 0vw;
+  }
+  .links-wrapper-2 .footer-heading {
+    margin-right: 0vw;
+  }
+  .links-wrapper-3 .footer-heading {
+    margin-right: 0vw;
+  }
 }

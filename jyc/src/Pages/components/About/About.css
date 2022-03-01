@@ -8,7 +8,7 @@
     background-color: rgb(240, 248, 255);
     gap: 4vh;
     text-align: justify;
-    box-shadow: 8px 10px 40px 10px #868686;
+    box-shadow: 8px 10px 15px 0px #868686;
 }
 .about-us-heading{
     font-size: 3rem;
@@ -50,6 +50,9 @@
     font-weight: 800;
 }
 @media only screen and (max-width: 768px) {
+    .about-section{
+        width: 92%;
+    }
     .about-us-heading{
         font-size: 2.4rem;
     }
@@ -65,11 +68,34 @@
         width: 97%;
     } 
     .about-stat-data{
-        font-size: 1.7rem;
+        font-size: 1.2rem;
         font-weight: 600;
     }
     .about-stats{
-        padding: 1vh 0;
-        height: 7vh;
+        padding: 2vh 0;
+        height: 6vh;
     }
-  }
+}
+@media only screen and (max-width: 440px) {
+    .about-jyc-data{
+        width: 100%;
+        font-size: .7rem;
+    }
+    .become-member-item{
+        font-size: .7rem;
+    }
+    .about-member{
+        padding-left: 0.5rem;
+        width: 97%;
+    }
+    .about-stat{
+        padding: .4rem;
+        /* height: 2vh; */
+    }
+    .about-stat{
+        font-size: .8rem;
+    }
+    .about-stat-data{
+        font-size: 1rem;
+    }
+}

@@ -5,8 +5,7 @@
 
 .header {
   position: fixed;
-  background: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(12px);
+  background: transparent;
   z-index: 1000;
   width: 100%;
 }
@@ -37,13 +36,12 @@
   list-style: none;
 }
 .nav-items ul a {
-  color: rgb(172, 170, 170);
+  color: rgb(189, 186, 186);
   text-decoration: none;
 }
 .nav-items ul li a:hover {
   color: #fff;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
+  font-weight: 500;
 }
 .header-nav-lines,
 .header-nav-line {

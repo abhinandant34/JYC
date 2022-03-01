@@ -4,12 +4,12 @@ export default function Card(parse) {
   return (
     
     <div>
-    <div className='flip-card'>
-       <div className='flip-card-inner'>
-         <div className='flip-card-front'>
-           <img className = 'event-card-image' src={parse.img}/> 
-           <div className='background-blur'>
-                    <div className='event-title'>   
+    <div className='flip-card-events'>
+       <div className='flip-card-inner-events'>
+         <div className='flip-card-front-events'>
+           <img className = 'events-card-image' src={parse.img}/> 
+           <div className='background-blur-events'>
+                    <div className='eventstitle'>   
                   {parse.title}  
                   </div>
                   <div className='event-date'>  
@@ -19,7 +19,7 @@ export default function Card(parse) {
 
            </div> 
 
-         <div className='flip-card-back'>
+         <div className='flip-card-back-events'>
            <h1>{parse.heading}</h1> 
            <p>{parse.about}</p> 
            

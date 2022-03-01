@@ -5,12 +5,17 @@ import event6 from './images/event6.jpg'
 import Card from '../CARDS/CARDS';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import { useEffect } from 'react';
 function EVENTS() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className='event-page'>
       <Header/>
-    <div className='events'>
-      <h1 className='event-heading'>EVENTS</h1>
+      <div className="events-head-bg"></div>
+    <div className='events-jyc'>
+      <h1 className='events-heading'>EVENTS</h1>
       <div className='events-container'>
         {/* EVENT 6 */}
         <Card

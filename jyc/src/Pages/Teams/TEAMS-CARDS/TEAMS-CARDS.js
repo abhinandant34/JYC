@@ -13,7 +13,7 @@ export default function Card(parse) {
           <div className="card-line">
             <hr></hr>
           </div>
-          <div className="socials">
+          <div className="socials-dev-team">
             <div class="social">
             <Link className='links'
             to={{
@@ -22,7 +22,7 @@ export default function Card(parse) {
               }}><i class="fab fa-instagram"></i>
           </Link>
             </div>
-            <div class="social">
+            <div class="social-dev-team">
             <Link className='links'
             to={{
               pathname: parse.twitter,
@@ -30,7 +30,7 @@ export default function Card(parse) {
               }}><i class="fab fa-twitter"></i>
           </Link>
             </div>
-            <div class="social">
+            <div class="social-dev-team">
             <Link className='links'
             to={{
               pathname: parse.linkedin,

@@ -57,14 +57,14 @@
   margin-bottom: 2rem;
 }
 
-.socials {
+.socials-dev-team {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
   gap: 15%;
 }
 
-.socials a {
+.socials-dev-team a {
   color: rgb(0, 0, 0, 0.8);
   margin-top: 5%rem;
   margin-bottom: 10%;

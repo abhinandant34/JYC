@@ -5,7 +5,7 @@ import './Heading.css'
 export default function Heading() {
   return (
   
-      <div className='heading'>Upcoming Eevents
+      <div className='heading'>Upcoming Events
     </div>
   
   )

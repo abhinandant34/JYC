@@ -38,7 +38,7 @@ justify-content: center;
   }
   .event-about-ue{
     font-size: 1rem;
-    text-align: left;
+    text-align: justify;
     display: flex;
 justify-content: left;
 padding-top: 3%;

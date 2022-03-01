@@ -44,19 +44,19 @@ function Header() {
             </li>
 
             <li>
-              <Link to="/">ABOUT</Link>
+              <Link to="#">ABOUT</Link>
             </li>
 
             <li>
-              <Link to="events">EVENTS</Link>
+              <Link to="/events">EVENTS</Link>
             </li>
 
             <li>
-              <Link to="/">CERTIFICATION</Link>
+              <Link to="/page-under-construction">CERTIFICATION</Link>
             </li>
 
             <li>
-              <Link to="/">CONTACT</Link>
+              <Link to="#">CONTACT</Link>
             </li>
           </ul>
         </div>

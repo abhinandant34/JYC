@@ -1,14 +1,18 @@
-import React from 'react'
-import './TEAMS.css'
-import image from './images/image.png'
+import React from 'react';
+import './TEAMS.css';
+import image from './images/image.png';
 import Card from '../TEAMS-CARDS/TEAMS-CARDS';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
-
+import { useEffect } from 'react';
 function EVENTS() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className='teams-page'>
       <Header/>
+      <div className='teams-head-bg'/>
     <div className='teams'>
         <h1 className='team-heading'>TEAMS</h1>
         <div className= 'container'>

@@ -4,8 +4,12 @@ import clublogo1 from './images/club-1.png';
 import Card from './Card/Card';
 import './Committees.css';
 import { Link , Route, Outlet} from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function Clubs() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return(
     <div className='clubs-comm'>
       <div className='clubs'>
@@ -18,81 +22,81 @@ export default function Clubs() {
             img={clublogo1}
             heading='LITERARY AND DEBATING CLUB'
             about='Literary & Dramatics Club is home to all the literature enthusiasts, theater lovers and street play artists.'
-            link='//www.google.com'
+            link='/literary-club'
             />
           <Card
             img={clublogo1}
             heading='THEATRE AND MUSIC CLUB'
-            about='The Theatre and Music Club of JUIT provides a platform to theatre lovers, nukkad enthusiasts and music admirers.'
-            link='/TAM'
+            about='The Theatre and Music Club provides a platform to theatre lovers, nukkad enthusiasts and music admirers.'
+            link='/theatre-club'
             />
           <Card
             img={clublogo1}
             heading='CULTURAL AND DANCE CLUB'
-            about='As the name suggests, one of the primary aims of the Cultural Club is to help students keep in touch with the rich cultural values, customs and traditions of our country.'
-            link='/CAD'
+            about='Cultural Club is to help students keep in touch with the rich cultural values, customs and traditions of our country.'
+            link='/cultural-club'
             />
           <Card
             img={clublogo1}
             heading='ENVIRONMENT, ECOLOGY AND HEALTH CLUB'
-            about='The clubs aim at providing a overall development of the members for the future.'
-            link='/EEH'
+            about='The club aim at providing a overall development of the members for the future.'
+            link='/environment-club'
             />
           <Card
             img={clublogo1}
-            heading='TECHNICAL AND PHOTOGRAPHY CLUB'
-            about='Composition of Movie, Photography and Createch the Technical Club of JUIT provides personal growth,leadership and learning opportunities.'
-            link='/TAC'
+            heading='TECHNICAL SCIENCES, MOVIES & PHOTOGRAPHY CLUB'
+            about='Technical Club of JUIT provides personal growth, leadership and learning opportunities.'
+            link='/tmp-club'
             />
           <Card
             img={clublogo1}
             heading='SPORTS CLUB'
-            about='Sports Club is one of the distinguishable bodies in the JYC which revolves around the organisation and implementation of Sports Tournaments and events in coordination with other clubs and committees.'
-            link='/SPR'
+            about='Sports Club revolves around the organisation and implementation of Sports Tournaments and events in coordination with other clubs and committees.'
+            link='/sports-club'
             />
         </div>
       </div>
       <div className='comittees'>     
         <div className='comittees-heading'>  
-          <h2 className='comittees-head-text'>Comittees</h2>   
+          <h2 className='comittees-head-text'>Committees</h2>   
           <div className='comittees-heading-underline'></div>  
         </div>
         <div className='comittees-all'>     {/*created a div for the whole portion of Committees */}
           <Card               //added first card imported from Card and passed values and required to it
             img={clublogo1}
-            heading='LITERARY AND DEBATING CLUB'
-            about='Literary & Dramatics Club is home to all the literature enthusiasts, theater lovers and street play artists.'
-            link='/cars'
+            heading='Events & Procurement Committee'
+            about='Events Committee are a power packed combination of "strength and wisdom" along with the "unity and team work" with which we execute the tasks.'
+            link='/eventspro-committee'
             />
           <Card
             img={clublogo1}
-            heading='THEATRE AND MUSIC CLUB'
-            about='The Theatre and Music Club of JUIT provides a platform to theatre lovers, nukkad enthusiasts and music admirers.'
-            link='/cars'
+            heading='Registration and Hospitality Committee'
+            about='Hospitality And Registration is responsibile for receiving guests with goodwill.'
+            link='/registration-committee'
             />
           <Card
             img={clublogo1}
-            heading='CULTURAL AND DANCE CLUB'
-            about='As the name suggests, one of the primary aims of the Cultural Club is to help students keep in touch with the rich cultural values, customs and traditions of our country.'
-            link='/cars'
+            heading='Media & Publicity Committee'
+            about='The Publicity and Sponsorship Committee of the JUIT Youth Club is an unsung part of the club.'
+            link='/media-committee'
             />
           <Card
             img={clublogo1}
-            heading='ENVIRONMENT, ECOLOGY AND HEALTH CLUB'
-            about='The clubs aim at providing a overall development of the members for the future.'
-            link='/cars'
+            heading='Creative Arts Committee'
+            about="It's work is to provide all the requirements needed for the event by all othet JYC Club or Committee."
+            link='/arts-committee'
             />
           <Card
             img={clublogo1}
-            heading='TECHNICAL AND PHOTOGRAPHY CLUB'
-            about='Composition of Movie, Photography and Createch the Technical Club of JUIT provides personal growth,leadership and learning opportunities.'
-            link='/cars'
+            heading="Disciplinary Committee"
+            about="The Disciplinary Committee maintains discipline in the campus during events and make sure that there's no misconduct of any kind in campus."
+            link='/disciplinary-committee'
             />
           <Card
             img={clublogo1}
-            heading='SPORTS CLUB'
-            about='Sports Club is one of the distinguishable bodies in the JYC which revolves around the organisation and implementation of Sports Tournaments and events in coordination with other clubs and committees.'
-            link='/cars'
+            heading='Finance Committee'
+            about="The finance committee provides financial support for organizing events using sponsors from various fields like technical ,food etc."
+            link='/finance-committee'
             />
         </div>
       </div>
