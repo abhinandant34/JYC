@@ -15,7 +15,10 @@ function EVENTS() {
       <Header/>
       <div className="events-head-bg"></div>
     <div className='events-jyc'>
-      <h1 className='events-heading'>EVENTS</h1>
+      <div className='events-heading'>
+        Events
+        <div className='eventsheading-u'/>
+      </div>
       <div className='events-container'>
         {/* EVENT 6 */}
         <Card

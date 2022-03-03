@@ -11,21 +11,21 @@ export default function Card1() {
                 <div className='card-ue'>     
                     <Eventcard                  
                     img={image}
-                    heading='QUALIFA'
+                    heading='Qafila'
                     // date='2022'
                     about='The virtual edition of JYC first-ever literary , theatrical and musical events.'/>
                 </div>
                 <div className='card-ue'>
                     <Eventcard
                     img={image2}
-                    heading='WELLNESS WEEK'
+                    heading='Wellness Week'
                     // date='2022'
                     about='Unite people through common goals of community awareness, prompting a better quality of life'/>
                 </div>
                 <div className='card-ue'>
                     <Eventcard
                     img={image3}
-                    heading='ATKHELIYAN'
+                    heading='Atkheliyan'
                     // date='2022'
                     about='From showing best dance moves to dressing up in the best attires, a chance to showcase talent with Bollywood tadka.
                     '/>

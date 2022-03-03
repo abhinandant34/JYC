@@ -1,10 +1,15 @@
 import React from 'react';
-import './About.css'
-
+import './About.css';
+import { useEffect } from 'react';
 function About() {
-    return<div className='about-section'>
+    useEffect(() => {
+        window.scrollTo(0, 500)
+      }, [])
+    return(
+        <div className='about-section' id='about-hp'>
         <div className='about-us-heading'>
             About Us
+            <div className='about-heading-underline'></div>
         </div>
         <div className='about-us-content'>
             <div className='about-jyc-data'>JUIT Youth Club (JYC) is the name of enthusiasm, development, consistency and effort. It is the body which
@@ -33,6 +38,6 @@ function About() {
             <div className='about-stat'><span className='about-stat-data'>6</span><br/>Committees</div>
         </div>
     </div>
-}
+    )}
 
 export default About;

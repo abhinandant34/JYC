@@ -21,7 +21,7 @@ export default function Card(parse) {
 
          <div className='flip-card-back-events'>
            <h1>{parse.heading}</h1> 
-           <p>{parse.about}</p> 
+           <p className='events-abt'>{parse.about}</p> 
            
          </div>
        

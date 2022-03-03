@@ -7,35 +7,34 @@
     height: 535px;
     background-color: #443E58;
 }
-
 .title-logo {
     display: flex;
     align-self: center;
     width: 15%;
     height: auto;
-    margin-top: -20vh;
+    padding-top: 5vh;
+    /* margin-top: 20vh; */
     animation-duration: 1.4s;
     animation-name: slide_up1;
 }
-
 .title-text {
     display: flex;
     align-self: center;
     text-align: center;
-    margin-top: -5vh;
+    padding-top: 8vh;
+    /* margin-top: 88vh; */
     font-weight: 700;
     font-size: 2rem;
     color: white;
     animation-duration: 1s;
     animation-name: slide_up2;
 }
-
 .socials {
     display: flex;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     color: white;
     justify-content: center;
-    gap: 10vw;
+    /* gap: 10vw; */
     animation-duration: 3s;
     animation-name: slide_up1;
 }
@@ -82,6 +81,7 @@
         margin-bottom: 8%;
     }
     .title-text {
+        padding-top: 12vh;
         font-size: 0.8rem;
         width: 100%;
         justify-content: center;

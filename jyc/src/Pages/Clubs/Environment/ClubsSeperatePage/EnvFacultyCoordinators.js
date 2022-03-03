@@ -23,8 +23,7 @@ function FacultyCoordinators() {
             designation="Assistant Professor "
             eMail="naveen.jaglan@juit.ac.in"
             Phone="(91)-01792-239206"
-          /></div>
-        
+          /></div>        
     </div>
     </div>
    </div>

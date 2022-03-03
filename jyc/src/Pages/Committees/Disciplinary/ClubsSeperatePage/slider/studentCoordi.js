@@ -5,7 +5,9 @@ import image3 from '../images/Priyanshi.png'
 import image4 from '../images/NamanBharadwaj.png'
 import image2 from '../images/IshitaGoel.png'
 import Slideshow from './Slideshow/Slideshow'
-const images = [image,image1,image2,image3,image4];
+import image5 from '../images/RaghavLuthra.jpeg'
+import image6 from '../images/MayankGupta.jpeg'
+const images = [image,image1,image2,image3,image4,image5,image6];
 
 function StudentSlideShow() {
   return (

@@ -16,11 +16,13 @@ import Finance from "./Pages/Committees/Finance/Finance";
 import Media from "./Pages/Committees/Media/Media";
 import Registration from "./Pages/Committees/Registration/Registration";
 import Page_Under_Construction from "./Pages/Page_Under_Construction/Page_Under_Construction";
+import About from "./Pages/components/About/About";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
           <Route index element={<Homepage />} />
+          <Route path="about" element={<About />} />
           <Route path="events" element={<EVENTS />} />
           <Route path="teams" element={<TEAMS />} />
           <Route path="cultural-club" element={<Cultural />} />

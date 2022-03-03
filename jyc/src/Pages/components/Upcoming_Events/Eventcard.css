@@ -10,13 +10,9 @@
     font-weight: bold;
     font-size: 1.6rem;
     color: black;
-    text-decoration: underline;
     text-align: center;
     display: flex;
 justify-content: center;
-}
-.event-about-ue{
-  padding: 5%;
 }
   @media screen and (max-width: 450px)and(min-width: 200px) {
     .event-heading-ue{
@@ -41,6 +37,6 @@ justify-content: center;
     text-align: justify;
     display: flex;
 justify-content: left;
-padding-top: 3%;
-
+/* padding-top: 3%; */
+margin-top: 1rem;
   }

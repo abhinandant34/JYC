@@ -5,8 +5,6 @@ import "./cards.css";
 
 function Card({ src, title, designation,eMail,Phone, width = "16vw", height = "15vw" }) {
   return (
-    
-
     // {FACULTY 1 CARD}
     <div className="Card"  style={{ width: width, height, height }}>
       <div className="Header">
@@ -23,9 +21,6 @@ function Card({ src, title, designation,eMail,Phone, width = "16vw", height = "1
         </div>
       </div>
     </div>
-      
-
-     
     </div>
   );
 }

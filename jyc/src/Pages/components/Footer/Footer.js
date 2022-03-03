@@ -55,8 +55,7 @@ function Footer() {
               <div className="logotmp">
                 <img className="footer-logotmp" src={logotmp} />
               </div>
-              <div>
-                {" "}
+              <div className="tmp-text">
                 Managed by Technical <br /> Sciences, Movies and <br />{" "}
                 Photography club
               </div>
@@ -173,7 +172,7 @@ function Footer() {
             <Link to='//www.google.com'><i class="fab fa-twitter"></i></Link>
           </div>
           <div className="footer-option-name">
-            <Link to='teams'>
+            <Link to='/teams'>
               Team </Link>
             |
             <Link to='/page-under-construction'> Certification </Link>

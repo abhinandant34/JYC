@@ -13,7 +13,7 @@ function Events() {
         <Card
        image ={m}
        header="Murious"
-       abouts="The most awaited techfest of the year-'MURIOUS'   is organised and hosted by the tech club of JUIT.From gaming to coding, robotics to tech talks this event is one of its kind."
+       abouts="The two days panorama' will be a massive spectacle of technical events and shows, as well as outstanding brain demos, with entertaining events like Click and Blink, Spot the Bug, Web Wizard, Valorant, Tech Talks, Code Quest, and Code Trails."
        />
         
 

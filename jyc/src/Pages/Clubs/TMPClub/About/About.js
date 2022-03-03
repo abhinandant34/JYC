@@ -9,15 +9,11 @@ function About () {
             About the Club
         </div>
    <div className="about-text">
-    <p>This club is a 
-    composition of Movie, Photography and ‘Createch’, 
-    the Technical Club of JUIT. It promotes personal 
-    growth, creativity, leadership and innovation. It 
-    helps to create learning opportunities for students 
-    in coding, videography, photoshop, photography and 
-    designing. The responsibility of the club includes 
-    telecasting cricket matches and movies for students, 
-    the photography club captures all the events.
+    <p>
+        CLUB, with a composition of Movies, Photography and 'Createch : The technical Club of JUIT.
+        This Club comes with a complete package of promoting overall growth, leadership, innovation, and creativity in all forms. With every passing day, it is creating more learning opportunities for students in creative field including videography, photography, coding, design-softwares like photoshop, etc.
+        From dealing with all events photography to organizing boot camps, is another crucial part of this club.
+        Including all features, it comes with an add-on perk of telecasting cricket matches and movies for students.
     </p>
     </div>
     </div>
