@@ -1,19 +1,69 @@
-.heading{
+.ueheading{
     text-align: center;
   font-style: normal;
   font-weight: bold;
   font-size: 4rem;
   color: rgb(68, 62, 88);
-  text-decoration: underline;
-  text-decoration-color: #E9B456;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  /* padding-bottom: 2%; */
   display: flex;
   justify-content: center;
   align-items: center; 
-  }
+  flex-direction: column;
+}
+.ue-heading-underline{
+  display: flex;
+  background: rgb(233, 180, 86);
+}
   @media screen and (max-width: 450px) {
-    .heading {
-      font-size: 3rem; 
+    .ueheading {
+      font-size: 2rem; 
     }
   }
+  @media only screen and (min-width: 992px) {
+    .ue-heading-underline{
+        width: 33rem;
+        height: .9vh;
+    }
+    .ueheading{
+        font-size: 4rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .ue-heading-underline{
+        width: 24.5rem;
+        height: .7vh;
+    }
+    .ueheading{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .ue-heading-underline{
+        width: 24.5rem;
+        height: .6vh;
+    }
+    .ueheading{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 600px) {
+    .ue-heading-underline{
+        width: 20.5rem;
+        height: .6vh;
+    }
+    .ueheading{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .ue-heading-underline{
+        width: 16.5rem;
+        height: .4vh;
+    }
+    .ueheading{
+        padding-top: 5%;
+        padding-bottom: 5%;
+        font-size: 2rem;
+    }
+}

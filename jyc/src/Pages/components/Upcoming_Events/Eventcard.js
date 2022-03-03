@@ -11,9 +11,9 @@ export default function Eventcard(parse) {
         <div className='event-heading-ue'>  
           {parse.heading}  
         </div>
-        <div className='event-date-ue'>   
+        {/* <div className='event-date-ue'>   
           {parse.date}   
-        </div>
+        </div> */}
         <div className='event-about-ue'>   
           {parse.about}   
         </div>

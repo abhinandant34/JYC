@@ -9,7 +9,8 @@ export default function JYC_Team() {
   return (
     <div className='JYC-TEAM'>
     <div className='JYC-TEAM-heading'>
-    <h2 className='JYC-TEAM-head-text'>JYC Team</h2>
+        JYC Team
+        <div className='jycteam-underline'></div>
     </div>
     <div className='JYC-TEAM-Members'>
       <div className='Member-1'>

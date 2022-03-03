@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+// import {HashLink as Link} from 'react-router-hash-link';
 import "./Header.css";
 import logojyc from "./images/logojyc.png";
 import { Cross as Hamburger } from 'hamburger-react';
-
-
+import Homepage from "../../Homepage";
+import {animateScroll as scroll} from 'react-scroll';
+import {Link as LNK} from 'react-scroll';
 function Header() {
+
   const [header, setHeader] = useState(false);
 
   const changeBackground = () => {
@@ -29,9 +32,9 @@ function Header() {
     <div className={header ? "header active" : "header"}>
       <div className={`header-wrapper ${isOpen1 ? 'header-wrapper active':''} `}>
      
-          <div className="header-logojyc">
-            <img className="header-logo" src={logojyc} />
-          </div>
+          <NavLink to='/' className="header-logojyc">
+            <img onClick={'/'} className="header-logo" src={logojyc} />
+          </NavLink>
           
           <div onClick={onClickHeader} className="menu">
             <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -40,23 +43,31 @@ function Header() {
         <div className="nav-items">
           <ul>
             <li>
-              <Link to="/">HOME</Link>
+              <Link onClick={() => scroll.scrollToTop()} to="/">HOME</Link>
             </li>
 
             <li>
-              <Link to="/">ABOUT</Link>
+              <LNK
+               to="about-hp"
+               spy={true}
+               smooth={true}
+               offset={-100}
+               duration={1000}
+               >
+                 ABOUT
+              </LNK>
             </li>
 
             <li>
-              <Link to="events">EVENTS</Link>
+              <Link to="/events">EVENTS</Link>
             </li>
 
             <li>
-              <Link to="/">CERTIFICATION</Link>
+              <Link to="/page-under-construction">CERTIFICATION</Link>
             </li>
 
             <li>
-              <Link to="/">CONTACT</Link>
+              <Link to="#">CONTACT</Link>
             </li>
           </ul>
         </div>
